@@ -1,0 +1,68 @@
+body {
+  background-color: #f5d488;
+  display: flex;
+  align-items: center;
+  font-family: 'Indie Flower', cursive;
+  height: 95vh;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+}
+
+footer {
+  align-items: center;
+  position: relative;
+  /* top: 111px; */
+}
+img {
+  height: 134px;
+  position: relative;
+  top: 32px;
+}
+
+.flexRow {
+  flex-direction: row;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.mainMessage {
+  font-size: 40px;
+  font-family: 'Cedarville Cursive', cursive;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  bottom: 70px;
+}
+
+.wordingPlacement {
+  position: relative;
+  bottom: 50px;
+}
+
+
+.footerContent {
+  justify-content: center;
+  display: flex;
+}
+
+.center-x {
+  display: flex;
+  justify-content: center;
+}
+
+.rewardAmount {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  font-size: 100px;
+  position: relative;
+
+}
+
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
